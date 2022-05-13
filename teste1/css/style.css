@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+:root{
+    --color-blue: #4682B4
+}
+
+header{
+    background-color:bisque
+}
+
+.header-title{
+    align-items: center;
+    text-align: center;
+}
+
+.logo{
+    color: var(--color-blue);
+}
+
+ul{
+    text-align: end;
+    margin-right: 50px;
+    font-style: oblique;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-image-1{
+    background-image: linear-gradient(rgba(0, 0, 0 .8), rgba(0, 0, 0, 0)) url(../images/funny-weird-wtf-stock-photos-19-5a3926af95d9d__700.jpg);
+}
