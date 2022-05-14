@@ -22,16 +22,6 @@ header{
     color: var(--color-blue);
 }
 
-ul{
-    text-align: end;
-    margin-right: 50px;
-    font-style: oblique;
-}
-
-a{
-    text-decoration: none;
-}
-
 .container{
     align-items: center;
     text-align: center;
@@ -44,6 +34,9 @@ a{
     background-position: center;
 }
 
-.bg-image-1{
-    background-image: linear-gradient(rgba(0, 0, 0 .8), rgba(0, 0, 0, 0)) url(../images/funny-weird-wtf-stock-photos-19-5a3926af95d9d__700.jpg);
+.hero{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+
 }
